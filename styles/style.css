@@ -39,12 +39,21 @@ p {
     
 }
 
-.intro-boxes > article {
-    padding: 5rem;
+body article {
+    padding: 4rem;
+}
+
+.intro-boxes {
+    display: grid;
+    grid-template-areas: 
+    "top-icon"
+    "lets-go"
+    "welcome";
 }
 
 .top-icon {
     background: var(--nude);
+    grid-area: top-icon;
 }
 
 .icon > path {
@@ -53,10 +62,12 @@ p {
 
 .lets-go {
     background: var(--yellow);
+    grid-area: lets-go;
 }
 
 .welcome {
     background: var(--green);
+    grid-area: welcome;
 }
 
 .calendar {
@@ -69,23 +80,58 @@ p {
 
 .calendar > article {
     background: white;
+    margin: 1rem 0;
+    height: 115px;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.read-more-grid {
+    display: grid;
+    grid-template-areas: 
+    "read-more hearts"
+    "newsletter newsletter";
+    
+}
+
+.read-more-grid > article {
+    padding: 2rem;
 }
 
 .read-more {
     background: var(--green);
+    grid-area: read-more;
+}
+
+.read-more > h2 {
+    font-size: 25px;
 }
 
 .hearts {
     background: var(--yellow);
+    grid-area: hearts;
+    display: flex;
+    flex-direction: column;
 }
 
 .newsletter {
     background: var(--orange);
+    grid-area: newsletter;
 }
 
 footer {
     background: var(--nude);
+    padding: 2rem;
 }
+
+footer > h2 {
+    margin-top: 0;
+}
+
+
 
 
 
