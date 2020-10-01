@@ -1,0 +1,95 @@
+:root {
+    --maxWidth: 1440px;
+    --nude: #EAD4B5;
+    --yellow: #E5AD40;
+    --green: #B5CC97;
+    --orange: #FC6B19;
+    --brown: #432E13;
+    --text: 'PT Sans', sans-serif;
+    --headline: 'Text Me One', sans-serif;
+}
+
+body {
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: var(--headline);
+}
+
+h1 {
+    color: var(--brown);
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 49px;
+}
+
+p {
+    font-family: var(--text);
+}
+
+.header-img {
+    width: 100%;
+    max-width: var(--maxWidth);
+    
+}
+
+.intro-boxes > article {
+    padding: 5rem;
+}
+
+.top-icon {
+    background: var(--nude);
+}
+
+.icon > path {
+    fill: var(--brown);
+}
+
+.lets-go {
+    background: var(--yellow);
+}
+
+.welcome {
+    background: var(--green);
+}
+
+.calendar {
+    background: var(--nude);
+}
+
+.calendar h2 {
+    color: var(--orange);
+}
+
+.calendar > article {
+    background: white;
+}
+
+.read-more {
+    background: var(--green);
+}
+
+.hearts {
+    background: var(--yellow);
+}
+
+.newsletter {
+    background: var(--orange);
+}
+
+footer {
+    background: var(--nude);
+}
+
+
+
+
+
+
+
