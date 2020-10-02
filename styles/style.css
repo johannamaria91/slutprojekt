@@ -88,6 +88,29 @@ body article {
     grid-area: welcome;
 }
 
+
+.gallery {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+figure {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    height: 50vw;
+    width: 50vw;
+    overflow: hidden;
+}
+
+figure img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 .calendar {
     background: var(--nude);
 }
@@ -112,7 +135,7 @@ body article {
     grid-template-areas: 
     "read-more hearts"
     "newsletter newsletter";
-    
+
 }
 
 .read-more-grid > article {
