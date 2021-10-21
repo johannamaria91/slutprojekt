@@ -362,6 +362,10 @@ footer > a {
         background-size: 200%;
     }
 
+    .top h1 {
+        margin-top: 5rem;
+    }
+
     .main-text-grid {
         display: grid;
         grid-template-areas: 
