@@ -362,9 +362,6 @@ footer > a {
         background-size: 200%;
     }
 
-    .top h1 {
-        margin-top: 5rem;
-    }
 
     .main-text-grid {
         display: grid;
@@ -471,6 +468,17 @@ footer > a {
     header {
         background-size: 100%;
     }
+
+   
+}
+
+@media screen and (min-width: 1440px) {
+   
+    .top h1 {
+        margin-top: 2rem;
+    }
+
+   
 }
 
 
