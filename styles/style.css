@@ -42,7 +42,7 @@ p {
     font-size: 20px;
 }
 
-/* GENERAL STYLING: background-colours */
+/* GENERAL STYLING: background colours */
 
 .grid-item2-lets-go, .grid-item2-backpack, .grid-item5-clothing, .grid-item2-hearts {
     background: var(--yellow);
